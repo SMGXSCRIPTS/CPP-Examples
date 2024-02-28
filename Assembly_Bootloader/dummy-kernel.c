@@ -1,4 +1,6 @@
+#include <stdint.h>
 #include "display.h"
+#include "ports.h"
 
 void GET_CURSOR()
 {
