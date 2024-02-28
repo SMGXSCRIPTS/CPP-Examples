@@ -39,6 +39,11 @@ void CLEAR_DISPLAY()
   }
 }
 
+void DISPLAY_PROCESS()
+{
+  PRINT_STRING(char* 'DUMMY KERNEL IN PLAY');
+}
+
 void KERNEL_MAIN()
 {
   CLEAR_DISPLAY();
