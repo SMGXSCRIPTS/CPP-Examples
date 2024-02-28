@@ -1,4 +1,4 @@
 [bits 32]
-[extern main]
+[extern KERNEL_MAIN]
 call KERNEL_MAIN
 jmp $
