@@ -80,7 +80,7 @@ struct SOCKADDR_IN4
     UINT8_T SIN4_LEN;
     SA_FAMILY_T SIN4_FAMILY;
     IN_PORT_T SIN4_PORT;
-    struct IN4_ADDR SIN_LEN;
+    struct IN4_ADDR SIN4_ADDR;
 };
 
 struct SOCKADDR_IN6
